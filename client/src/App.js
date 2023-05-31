@@ -6,7 +6,7 @@ function App() {
   // Fetching message from backend on mount
   useEffect(() => {
     //fetch("http://localhost:4000")
-    fetch("https://dashboard.render.com/web/srv-chr3od0rddlba9q02ivg/deploys/dep-chrhspjhp8ud4n2oj97g")
+    fetch("https://mern-deploy-vnjq.onrender.com/")
       .then((res) => res.json())
       .then((data) => setMessage(data.message));
   }, []);
